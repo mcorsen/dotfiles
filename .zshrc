@@ -69,6 +69,7 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(
   git
   colorize
+  nvm
 )
 
 source $ZSH/oh-my-zsh.sh
