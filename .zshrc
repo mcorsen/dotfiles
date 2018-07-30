@@ -74,6 +74,7 @@ plugins=(
   git
   colorize
   thefuck
+  nvm
 )
 
 source $ZSH/oh-my-zsh.sh
