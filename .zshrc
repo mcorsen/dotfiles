@@ -1,6 +1,10 @@
 # If you come from bash you might have to change your $PATH.
 #export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+if [[ -f ~/.path ]]; then
+    source ~/.path
+fi
+
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
 
@@ -69,6 +73,7 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(
   git
   colorize
+  thefuck
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -100,10 +105,6 @@ export EDITOR='vim'
 alias vi="vim"
 if [[ -f ~/.aliases ]]; then
     source ~/.aliases
-fi
-
-if [[ -f ~/.path ]]; then
-    source ~/.path
 fi
 
 #source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
