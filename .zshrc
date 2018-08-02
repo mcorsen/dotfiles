@@ -13,7 +13,7 @@ export ZSH=~/.oh-my-zsh
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(ssh context dir anaconda vcs newline)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(ssh context dir anaconda virtualenv vcs newline)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history aws)
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
 POWERLEVEL9K_SHORTEN_DELIMITER="..."
@@ -73,7 +73,7 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(
   git
   colorize
-  thefuck
+  docker
   nvm
 )
 
