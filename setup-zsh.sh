@@ -10,3 +10,4 @@ if [[ ! -d ~/.oh-my-zsh/custom/zsh-syntax-highlighting ]]; then
 fi
 cp .zshrc ~/
 cp .vimrc ~/
+cp .gitconfig ~/

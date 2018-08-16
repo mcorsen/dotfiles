@@ -108,5 +108,9 @@ if [[ -f ~/.aliases ]]; then
     source ~/.aliases
 fi
 
+if [[ -f ~/.env_vars ]]; then
+    source ~/.env_vars
+fi
+
 #source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.oh-my-zsh/custom/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
