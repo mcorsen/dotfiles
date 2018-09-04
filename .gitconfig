@@ -1,7 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
 	name = Matt Olsen
-	email = matt.olsen@payclip.com
+	email = matt.olsen@gmail.com
 [push]
 	default = current
 [core]
