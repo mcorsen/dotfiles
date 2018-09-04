@@ -75,6 +75,7 @@ plugins=(
   colorize
   docker
   nvm
+  thefuck
 )
 
 source $ZSH/oh-my-zsh.sh
