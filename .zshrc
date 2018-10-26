@@ -113,5 +113,9 @@ if [[ -f ~/.env_vars ]]; then
     source ~/.env_vars
 fi
 
+if [[ -f ~/anaconda3/etc/profile.d/conda.sh ]]; then
+    source ~/anaconda3/etc/profile.d/conda.sh
+fi
+
 #source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.oh-my-zsh/custom/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
