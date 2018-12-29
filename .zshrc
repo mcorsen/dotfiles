@@ -5,6 +5,11 @@ if [[ -f ~/.path ]]; then
     source ~/.path
 fi
 
+if [[ -f ~/anaconda3/etc/profile.d/conda.sh ]]; then
+    source ~/anaconda3/etc/profile.d/conda.sh
+    conda activate base
+fi
+
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
 
@@ -111,10 +116,6 @@ fi
 
 if [[ -f ~/.env_vars ]]; then
     source ~/.env_vars
-fi
-
-if [[ -f ~/anaconda3/etc/profile.d/conda.sh ]]; then
-    source ~/anaconda3/etc/profile.d/conda.sh
 fi
 
 #source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
