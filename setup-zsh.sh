@@ -11,3 +11,7 @@ fi
 cp .zshrc ~/
 cp .vimrc ~/
 cp .gitconfig ~/
+mkdir -p ~/.local/share/fonts
+font_name="Hack Regular Nerd Font Complete"
+curl https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf > ~/.local/share/fonts/"$font_name".ttf
+#fc-cache -v
