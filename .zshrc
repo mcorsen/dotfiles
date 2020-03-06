@@ -1,3 +1,4 @@
+export TERM="xterm-256color"
 # If you come from bash you might have to change your $PATH.
 #export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -81,6 +82,7 @@ plugins=(
   docker
   nvm
   thefuck
+  fzf
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -120,3 +122,4 @@ fi
 
 #source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.oh-my-zsh/custom/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
